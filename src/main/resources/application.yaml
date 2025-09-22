@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:  jdbc:mysql://localhost:3306/db_play
+    username: root
+    password: 123456
+
+  ai:
+    dashscope:
+      api-key: sk-bcf5573cf310444ab736e44ddfd753e6
+  application:
+    name: spring-ai-deepseek-demo
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
