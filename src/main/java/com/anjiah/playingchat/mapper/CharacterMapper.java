@@ -12,7 +12,7 @@ import java.util.List;
 public interface CharacterMapper {
 
     //查询指定角色
-    @Select("select * from characters where name = #{id} and is_active = true")
+    @Select("select * from characters where name = #{name} and is_active = true")
     Characters findById(String name);
 
     //查询所有角色

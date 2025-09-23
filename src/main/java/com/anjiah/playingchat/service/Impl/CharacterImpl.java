@@ -29,7 +29,7 @@ public class CharacterImpl implements CharacterService {
     @Override
     public void addCharacter(Characters character) {
         character.setUpdatedAt(LocalDateTime.now());
-        character.setUpdatedAt(LocalDateTime.now());
+        character.setCreatedAt(LocalDateTime.now());
         if(character.getPopularity()==null){
             character.setPopularity(0);
         }
